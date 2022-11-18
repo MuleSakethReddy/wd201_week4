@@ -29,14 +29,14 @@ describe("TodoList Test Suite", () => {
         //console.log(dueDate),
       },
       {
-        title: "Test todo",
+        title: "Test2 todo",
         completed: false,
         dueDate: yesterday,
       }
     );
     const todoItemCount = all.length;
     add({
-      title: "Test todo",
+      title: "Test3 todo",
       completed: false,
       dueDate: yesterday,
     });
